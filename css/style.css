@@ -12,6 +12,7 @@ header
 {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .main-logo , .contact-logo
@@ -20,6 +21,11 @@ header
     height: 15vh;
 }
 
+.contact-logo
+{
+    width: 20vw;
+
+}
 .contact-us
 {
     display: flex;
@@ -35,6 +41,7 @@ header
     gap: 0.5rem;
     margin: 1rem;
     padding: 1rem;
+    
 
 
 }
@@ -42,11 +49,66 @@ header
 /*utility class */
 .container
 {
-    max-width: 1180px;
+    max-width: 125rem; 
     margin-inline: auto;
     overflow: hidden;
 }
-.inline
+.header-contact h3
 {
+    font-size: 1rem;
+    font-weight: 500;
     display: inline;
 }
+.header-contact h4
+{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    font-weight: 700;
+ }
+
+.header-contact i
+{
+    font-size: 2rem;
+}
+
+/* nav styling */
+nav
+{
+    background: #049ff6;
+    padding: 10px 40px 10px 70px;
+    border:1px solid red;
+    border-left: none;
+    border-radius: none;
+
+
+}
+nav ul
+{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #e0effd;
+}
+
+nav ul .nav-items
+{
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+
+}
+
+.search-icon
+{
+  }

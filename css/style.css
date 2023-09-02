@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo , .contact-logo
+{
+    width: 15vw;
+    height: 15vh;
+}
+
+.contact-us
+{
+    display: flex;
+    gap: 4rem;
+}
+
+.header-contact
+{
+    /* margin: 3rem; */
+    /* padding: 1rem;
+    margin-right: 10px;  */
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+
+
+}
+
+/*utility class */
+.container
+{
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+.inline
+{
+    display: inline;
+}

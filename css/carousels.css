@@ -1,0 +1,145 @@
+.our-doctors {
+  height: 100vh;
+  width: 100vw;
+  background-color: #79bfe580;
+  text-align: center;
+  overflow: hidden;
+}
+
+.our-doctors .doctor-content h2 {
+  font-size: 4rem;
+}
+.our-doctors .doctor-content h3 {
+  font-size: 3rem;
+  color: #f52851;
+  font-family: cursive;
+  margin-top: 3rem;
+}
+
+.owl-two {
+  margin-top: 4rem;
+}
+.active-dr {
+  color: #0594e7;
+}
+.owl-two img {
+  height: 350px;
+  width: 150px;
+}
+.owl-two .item {
+  border: 10px solid #fff;
+  text-align: center;
+  background-color: white;
+  overflow: hidden;
+   height: 65vh;
+  overflow: hidden;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.owl-two .item h2 {
+  font-family: cursive;
+  color: #f52851;
+  font-size: 3rem;
+  line-height: 6rem;
+
+  font-weight: 700;
+}
+.owl-two .item h3 {
+  font-weight: 900;
+  line-height: 4rem;
+
+}
+.owl-two .item p {
+  font-weight: 300;
+  height: 1rem;
+  font-size: 2rem;
+ 
+}
+.dr-description {
+  margin-bottom:10rem;
+}
+
+
+/* our hospitals */
+.our-hospitals {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.our-hospitals .hospital-content h2 {
+  font-size: 4rem;
+}
+.our-hospitals .hospital-content h3 {
+  font-size: 3rem;
+  color: #f52851;
+  font-family: cursive;
+  margin-top: 3rem;
+}
+
+.owl-three {
+  margin-top: 4rem;
+}
+.active-hospital {
+  color: #0594e7;
+}
+.owl-three img {
+  height: 350px;
+  width: 150px;
+}
+.owl-three .item {
+  border: 10px solid #fff;
+  text-align: center;
+  background-color: white;
+  overflow: hidden;
+   height: 65vh;
+  overflow: hidden;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  border: 2px dotted #f52851;
+}
+.owl-three .item h2 {
+  font-family: cursive;
+  color: #f52851;
+  font-size: 3rem;
+  line-height: 6rem;
+
+  font-weight: 700;
+}
+.owl-three .item h3 {
+  font-weight: 900;
+  line-height: 4rem;
+
+}
+.owl-three .item p {
+  font-weight: 300;
+  height: 1rem;
+  font-size: 2rem;
+ 
+}
+.location-description {
+  margin-bottom:10rem;
+}
+
+.explore-hospital
+{
+  color: #f52851;
+  text-decoration: underline;
+}
+.explore
+{
+  text-align: center;
+}
+.explore span
+{
+  font-size: 2rem;
+  cursor: pointer;
+}

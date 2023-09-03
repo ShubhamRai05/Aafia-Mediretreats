@@ -50,6 +50,10 @@ header {
   font-size: 4rem;
   font-weight: 600;
 }
+.topmargin
+{
+  margin-top: 2rem;
+}
 
 .header-contact h3 {
   font-size: 1rem;
@@ -122,9 +126,9 @@ nav ul .nav-items {
   position: absolute;
   font-size: 42px;
   color: #fff;
-  right: 52px;
-  margin-right: 9rem;
-  margin-top: -1.3rem;
+  right: -15px;
+  margin-right: 12rem;
+  margin-top: -2rem;
 }
 .hero {
   background: linear-gradient(rgba(51, 48, 48, 0.4) , rgba(8, 0, 8, 0.7)) ,   url('/images/hero\ background.avif'), url('/images/Hero.jpg');

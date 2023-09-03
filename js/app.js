@@ -1,20 +1,24 @@
-// // navigation section
-// let navigationSection = document.querySelectorAll(".body-section")
+// Get references to the elements
+let enquiryForm = document.querySelector(".enquiry-form");
+let treatmentOverview = document.getElementById("treatment-overview");
 
-// let navLinks = document.querySelectorAll(".navigation-items li a")
+// Calculate the offset position where the form should become fixed
+let formOffsetTop = enquiryForm.offsetTop;
 
-// window.onscroll = ()=>{
-//     navigationSection.forEach(section=>{
-//         let top = window.scrollY;
-//         let offset = section.offsetTop;
-//         let height = section.offsetHeight;
-//         let id = section.getAttribute("id")
+// Function to handle the scroll event
+function handleScroll() {
+    // Get the current scroll position
+    let scrollPosition = window.scrollY;
 
-//         if(top >= offset && top < offset +  height){
-//             navLinks.forEach(links =>{
-//                 links.classList.remove("active")
-//                 document.querySelector("header nav a [href*=' + id + ']").classList.add("active")
-//             })
-//         }
-//     })
-// }
+    // Check if the user has scrolled to or beyond the form's offset position
+    if (scrollPosition >= formOffsetTop) {
+        // Add a CSS class to make the form fixed
+        enquiryForm.classList.add("fixed-form");
+    } else {
+        // Remove the CSS class to return the form to its previous position
+        enquiryForm.classList.remove("fixed-form");
+    }
+}
+
+// Attach the scroll event listener to the window
+window.addEventListener("scroll", handleScroll);

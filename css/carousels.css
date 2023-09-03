@@ -93,7 +93,7 @@
   width: 150px;
 }
 .owl-three .item {
-  border: 10px solid #fff;
+  border: 1rem solid #fff;
   text-align: center;
   background-color: white;
   overflow: hidden;
@@ -142,4 +142,77 @@
 {
   font-size: 2rem;
   cursor: pointer;
+}
+
+
+/* banner styling */
+.call-to-action
+{
+  height: 50vh;
+  background: url("/images/call\ to\ action.jpg");
+  margin-top: 3rem;
+}
+
+.contact-health
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-health .banner-text h3
+{
+  font-size: 3rem;
+  line-height: 5rem;
+
+}
+.contact-health .banner-text h2
+{
+  font-size: 4rem;
+  font-weight:700 ;
+  line-height: 8rem;
+ 
+}
+
+.cta
+{
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 10rem;
+ }
+.cta button
+{
+/* padding: 4rem; */
+color:#fff;
+font-size: 3rem;
+background-color: #107DF7;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 1rem;
+transition: all 0.3s ease;
+font-weight: 800;
+
+}
+.cta button:hover{
+  color: black;
+  background-color: white;
+}
+.cta a
+{
+  text-decoration: none;
+  font-size: 4rem;
+  display: inline-block;
+  color: #fff;
+  transition: all 0.3s  ease-in-out;
+}
+
+.cta a:hover
+{
+  color: #f52851;
+  
 }

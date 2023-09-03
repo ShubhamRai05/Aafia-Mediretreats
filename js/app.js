@@ -1,8 +1,6 @@
-// Get references to the elements
 let enquiryForm = document.querySelector(".enquiry-form");
 let treatmentOverview = document.getElementById("treatment-overview");
 
-// Calculate the offset position where the form should become fixed
 let formOffsetTop = enquiryForm.offsetTop;
 
 // Function to handle the scroll event
@@ -20,5 +18,43 @@ function handleScroll() {
     }
 }
 
-// Attach the scroll event listener to the window
 window.addEventListener("scroll", handleScroll);
+
+//  FAQ TOGGLE
+const accordian = document.querySelectorAll(".accordian")
+let answer = document.querySelector(".answer")
+
+accordian.forEach((accord) => {
+    const icon = accord.querySelector(".icon")
+    const answer = accord.querySelector(".answer")
+    icon.addEventListener("click", () => {
+        if (answer.classList.toggle("active-faq") && icon.classList.contains("fa-plus")) {
+            icon.classList.remove("fa-plus")
+            icon.classList.add("fa-minus")
+
+        }else
+        {
+            icon.classList.add("fa-plus")
+        }
+
+    })
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

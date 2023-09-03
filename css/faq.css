@@ -1,0 +1,29 @@
+/* faq styling */
+.accordian {
+  background-color: rgb(24, 23, 23);
+  padding: 4px 16px;
+  color: azure;
+  width: 60%;
+  cursor: pointer;
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-right: 16px;
+}
+.answer {
+  color: #fff;
+  display: none;
+  overflow: hidden;
+}
+
+.answer.active-faq {
+  display: block;
+}

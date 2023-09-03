@@ -1,0 +1,80 @@
+footer {
+  background: url('/images/footer.png');
+  height: 90vh;
+  position: relative;
+}
+.important-info {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  height: 50%;
+  border-bottom: 2px solid #fff;
+}
+
+.footer-item {
+  margin-top: 3rem;
+}
+.hospital-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hospital-info .info-icon {
+  font-size: 1rem;
+  color: aqua;
+  margin-top: 0.5rem;
+}
+footer .footer-item .footer-card {
+  height: 15vh;
+  width: 15vw;
+  background-color: white;
+  border-radius: 1rem;
+  position: absolute;
+  /* top: -8rem; */
+  bottom: 75rem;
+}
+
+.last-footer-item {
+  margin-top: 5rem;
+}
+
+.about-medical {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-medical-logo img {
+  width: 400px;
+  height: 200px;
+}
+.about-medical .about-info {
+  font-size: 2rem;
+  color: #fff;
+  width: 40%;
+}
+
+.about-medical .social-media i {
+  font-size: 3rem;
+  color: #fff;
+}
+.copyright {
+  position: absolute;
+  bottom: 0;
+  /* top: 0; */
+  height: 10vh;
+  background-color: aqua;
+  color: #fff;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright p {
+  font-size: 2rem;
+  text-align: center;
+}
+.footer-terms h3 {
+    display: inline-block;
+    padding: 1rem;
+  }

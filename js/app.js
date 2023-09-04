@@ -123,8 +123,3 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
-
-
-
-

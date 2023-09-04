@@ -65,12 +65,12 @@ footer .footer-item .footer-card {
   /* top: 0; */
   height: 10vh;
   background-color: aqua;
-  color: #fff;
+  color: rgb(15, 14, 14);
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-}
+ }
 .copyright p {
   font-size: 2rem;
   text-align: center;

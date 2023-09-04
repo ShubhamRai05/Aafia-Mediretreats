@@ -15,3 +15,4 @@ You can access the live demo of the website [here](https://assignmentideamagix.n
 - JavaScript
 - Owl Carousel (for image sliders)
 - Google Translate API (for multilingual support)
+- Bootstrap forms

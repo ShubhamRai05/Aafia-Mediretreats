@@ -45,7 +45,7 @@ $('.owl-two').owlCarousel({
     loop: true,
     margin: 40,
     nav: true,
-    dots:true,
+    dots: true,
     responsive: {
         0: {
             items: 1
@@ -96,30 +96,3 @@ $('.owl-three').owlCarousel({
         }
     }
 })
-
-
-
-// shimmer ui
-document.addEventListener('DOMContentLoaded', function () {
-    // Wait for the DOM to be fully loaded
-
-    // Get the image element by its ID
-    const imageElement = document.getElementById('image');
-
-    // Set the image source dynamically (replace 'your-image-url.jpg' with the actual image URL)
-    const imageUrl = './images/shimmer gif.gif';
-    imageElement.src = imageUrl;
-
-    // Hide the shimmer container (div.shimmer-container) once the image is loaded
-    imageElement.onload = function () {
-        document.querySelector('.shimmer-container').style.display = 'none';
-    };
-});
-
-
-
-
-
-
-
-

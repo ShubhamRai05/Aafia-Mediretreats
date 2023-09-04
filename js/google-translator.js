@@ -16,3 +16,13 @@ function googleTranslateElementInit() {
         'google_translate_element'
     );
 }
+
+// shimmer ui 
+setTimeout(function() {
+    // Replace 'your-image-url.jpg' with the actual image URL
+    document.getElementById('image').src = '';
+
+    // Show the content and hide the shimmer effect
+    document.getElementById('content').style.display = 'block';
+    document.querySelector('.shimmer-container').style.display = 'none';
+}, 2000);

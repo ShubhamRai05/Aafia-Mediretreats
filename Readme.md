@@ -8,7 +8,7 @@ This is the repository for the Medical Website project.
 
 You can access the live demo of the website [here](https://assignmentideamagix.netlify.app/).
 
-## Technologies Used
+## Technologies Used 
 
 - HTML
 - CSS
@@ -16,3 +16,4 @@ You can access the live demo of the website [here](https://assignmentideamagix.n
 - Owl Carousel (for image sliders)
 - Google Translate API (for multilingual support)
 - Bootstrap forms
+- Shimmer Effect
